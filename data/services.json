@@ -1,0 +1,11 @@
+[
+  {"id":"portfolio","title":"Strategic Data & Portfolio Management","team":"Portfolio & Performance","summary":"Prioritization, investment alignment, performance and portfolio transparency.","deliverables":["Portfolio decision","Prioritization","Value tracking"]},
+  {"id":"ou-data-lead","title":"OU Data Leadership","team":"OU Data Leads","summary":"Connects business demand, Value Pools and local or regional priorities to CDO delivery.","deliverables":["Business alignment","Demand shaping","Escalation and sponsorship"]},
+  {"id":"architecture","title":"Information & Data Architecture","team":"Data Architecture & Engineering","summary":"Architecture standards, design assurance, integration patterns and technical direction.","deliverables":["Architecture review","Solution pattern","Blueprint guidance"]},
+  {"id":"enterprise-data","title":"Enterprise Data Management","team":"Enterprise Data Management","summary":"Data governance, metadata, quality, stewardship and enterprise data controls.","deliverables":["Governance requirements","Data ownership","Quality controls"]},
+  {"id":"decision-intelligence","title":"Decision Intelligence & Analytics","team":"Decision Intelligence","summary":"Analytics, reporting, semantic models and decision-support products.","deliverables":["Analytics product","Dashboard","Semantic model"]},
+  {"id":"ai-strategy","title":"AI Strategy & Innovation","team":"Chief AI Officer","summary":"AI strategy, innovation, agentic AI and Responsible AI direction.","deliverables":["AI approach","RAI guidance","Innovation path"]},
+  {"id":"data-science","title":"Data Science","team":"Data Science","summary":"Advanced analytics, machine learning, experimentation and model development.","deliverables":["Model","Experiment","Evaluation"]},
+  {"id":"engineering","title":"Data Architecture & Engineering","team":"Data Architecture & Engineering","summary":"Engineering, integration and platform-aligned implementation.","deliverables":["Data pipeline","Integration","Production implementation"]},
+  {"id":"platform-operations","title":"Secure, Run & Optimise","team":"Data Platform Operations","summary":"Platform operations, monitoring, reliability, support and optimization.","deliverables":["Operational acceptance","Monitoring","Support model"]}
+]
