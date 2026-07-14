@@ -1,0 +1,104 @@
+{
+  "understand": {
+    "title": "Understand",
+    "purpose": "Clarify what is being brought, where it belongs and why it matters before detailed analysis begins.",
+    "information": [
+      ["Demand type", "New idea, existing prototype, new data, enhancement or operational issue."],
+      ["Business problem", "The problem, opportunity or operational risk being addressed."],
+      ["Value Pool", "The existing value pool or portfolio area to which the demand belongs."],
+      ["Business capability", "The capability, process or decision that will be improved."],
+      ["Sponsor and users", "Who owns the outcome and who will use or benefit from it."],
+      ["Expected KPI", "The business measure expected to improve."]
+    ],
+    "outputs": ["Qualified demand", "Value Pool alignment", "Named sponsor", "Clear next-step recommendation"],
+    "raci": [["Provide business context", "Business", "R", "Data Product Manager", "A"], ["Confirm Value Pool", "Value Pool Lead", "A", "Data Product Manager", "R"], ["Classify demand", "Data Product Manager", "A/R", "Architecture", "C"]],
+    "readiness": ["The business problem is clear", "A sponsor is identified", "The Value Pool is selected", "The expected outcome is understood"],
+    "gates": ["intake", "portfolio"],
+    "services": ["portfolio", "ou-data-lead"]
+  },
+  "discover": {
+    "title": "Discover",
+    "purpose": "Validate value, understand the current state and recommend the best path before committing to delivery.",
+    "information": [
+      ["Current state", "Existing process, solution, prototype, reports and workarounds."],
+      ["Evidence of value", "Observed benefits, pain points, demand, adoption or measurable impact."],
+      ["Existing assets", "Reusable Data Products, dashboards, APIs, models or enterprise capabilities."],
+      ["Data readiness", "Available data, missing data, quality, ownership and access constraints."],
+      ["Scale and complexity", "Users, geographies, transaction volumes, integrations and criticality."],
+      ["Recommendation", "Reuse, enhance, industrialize, build, stop or route to support."]
+    ],
+    "outputs": ["Discovery recommendation", "Reuse decision", "Estimated value", "Dependencies and risks"],
+    "raci": [["Validate problem and value", "Business Sponsor", "A", "Data Product Manager", "R"], ["Assess reuse", "Data Product Manager", "A/R", "Architecture", "C"], ["Assess feasibility", "Architecture", "A", "Engineering", "R"], ["Recommend path", "Data Product Manager", "A", "Business", "C"]],
+    "readiness": ["Existing assets were checked", "Value and scope are understood", "A recommended path is documented", "Governance needs are identified"],
+    "gates": ["portfolio", "architecture-triage", "rai-triage"],
+    "services": ["portfolio", "architecture", "decision-intelligence", "enterprise-data"]
+  },
+  "design": {
+    "title": "Design",
+    "purpose": "Translate the recommendation into an enterprise-ready solution, operating model and delivery blueprint.",
+    "information": [
+      ["Solution boundaries", "What is included, excluded and reused."],
+      ["Architecture", "Integration, data, platform, identity, security and non-functional needs."],
+      ["Product model", "Ownership, consumers, service level and lifecycle."],
+      ["Responsible AI", "AI risk, human oversight, transparency and control requirements where applicable."],
+      ["Governance", "Privacy, security, data governance, records and compliance requirements."],
+      ["Support model", "Monitoring, incident ownership, release and operational responsibilities."]
+    ],
+    "outputs": ["Solution Blueprint", "Architecture decision", "Governance plan", "Delivery estimate and roadmap"],
+    "raci": [["Own solution outcome", "Data Product Manager", "A", "Business", "C"], ["Approve architecture", "Architecture", "A/R", "Engineering", "C"], ["Define governance controls", "Governance services", "A/R", "Product Team", "C"], ["Define support model", "Operations", "A", "Product Team", "R"]],
+    "readiness": ["Architecture is agreed", "Required governance reviews are complete or planned", "Ownership and support are defined", "Delivery scope is estimable"],
+    "gates": ["architecture", "responsible-ai", "privacy-security"],
+    "services": ["architecture", "enterprise-data", "ai-strategy", "engineering", "platform-operations"]
+  },
+  "build": {
+    "title": "Build",
+    "purpose": "Create and validate the solution incrementally while maintaining alignment to value, architecture and controls.",
+    "information": [
+      ["Delivery plan", "Prioritized backlog, milestones, dependencies and release scope."],
+      ["Acceptance criteria", "Business, data, technical and governance expectations."],
+      ["Test strategy", "Functional, data quality, model, security and performance testing."],
+      ["Traceability", "Connection between business need, requirement, delivery item and KPI."],
+      ["Change impact", "Process, role, training and adoption changes."],
+      ["Release readiness", "Operational, support and deployment prerequisites."]
+    ],
+    "outputs": ["Tested product increment", "Accepted requirements", "Release candidate", "Operational documentation"],
+    "raci": [["Prioritize backlog", "Data Product Manager", "A/R", "Business", "C"], ["Build solution", "Engineering / Product Team", "R", "Technical Lead", "A"], ["Validate business outcome", "Business SME", "R", "Business Sponsor", "A"], ["Validate controls", "Governance services", "A/R", "Product Team", "C"]],
+    "readiness": ["Acceptance criteria are met", "Required controls are implemented", "Business validation is complete", "Operational readiness is confirmed"],
+    "gates": ["delivery-readiness", "operational-readiness"],
+    "services": ["engineering", "data-science", "decision-intelligence", "platform-operations"]
+  },
+  "launch": {
+    "title": "Launch",
+    "purpose": "Release safely, support adoption and transition the capability into a sustainable operating model.",
+    "information": [
+      ["Deployment plan", "Release sequence, cutover, rollback and validation."],
+      ["Users and adoption", "Target users, communications, training and usage expectations."],
+      ["Support route", "Service Manager, product team, operations and escalation route."],
+      ["Monitoring", "Technical health, data quality, usage, model and business indicators."],
+      ["Hypercare", "Duration, responsibilities and exit conditions."],
+      ["Ownership", "Named Product Manager, business owner and technical owner."]
+    ],
+    "outputs": ["Production release", "Adoption plan", "Support handover", "Baseline KPI measurement"],
+    "raci": [["Approve go-live", "Business Sponsor", "A", "Product Manager", "R"], ["Deploy", "Engineering / Operations", "R", "Technical Owner", "A"], ["Drive adoption", "Business Change Lead", "R", "Business Sponsor", "A"], ["Accept support", "Service Manager / Operations", "A/R", "Product Team", "C"]],
+    "readiness": ["Go-live approval is recorded", "Monitoring and support are active", "Users are prepared", "Baseline measures are captured"],
+    "gates": ["go-live", "operational-readiness"],
+    "services": ["platform-operations", "engineering", "ou-data-lead"]
+  },
+  "measure": {
+    "title": "Measure",
+    "purpose": "Confirm whether the product delivers the expected outcome and decide what should happen next.",
+    "information": [
+      ["Business KPI", "Actual result compared with baseline and target."],
+      ["Adoption", "Users, frequency, retention and breadth of use."],
+      ["Product health", "Reliability, performance, data quality and support demand."],
+      ["Value evidence", "Savings, risk reduction, productivity, revenue or decision improvement."],
+      ["Feedback", "User experience, unmet needs and improvement opportunities."],
+      ["Lifecycle decision", "Scale, enhance, maintain, consolidate or retire."]
+    ],
+    "outputs": ["Benefits-realization view", "Product health assessment", "Improvement backlog", "Lifecycle decision"],
+    "raci": [["Own business value", "Business Sponsor", "A", "Data Product Manager", "R"], ["Measure product performance", "Data Product Manager", "A/R", "Operations", "C"], ["Recommend lifecycle action", "Data Product Manager", "R", "Value Pool Lead", "A"]],
+    "readiness": ["Business value has been reviewed", "Product health is visible", "A lifecycle decision is agreed", "Lessons are captured"],
+    "gates": ["value-review"],
+    "services": ["portfolio", "decision-intelligence", "platform-operations"]
+  }
+}
