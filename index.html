@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="description" content="QSCP Data & AI Playbook" />
+  <title>QSCP Data & AI Playbook</title>
+  <link rel="stylesheet" href="css/theme.css" />
+  <link rel="stylesheet" href="css/layout.css" />
+  <link rel="stylesheet" href="css/components.css" />
+</head>
+<body>
+  <div class="app-shell">
+    <header class="topbar">
+      <button class="brand" data-action="home" aria-label="Go to homepage">
+        <span class="brand-mark">Q</span>
+        <span class="brand-copy">
+          <strong>QSCP Data & AI Playbook</strong>
+          <small>How Quality, Supply Chain & Procurement engage Data & AI</small>
+        </span>
+      </button>
+      <nav class="top-actions" aria-label="Primary navigation">
+        <button class="nav-button" data-action="assets">Existing Assets</button>
+        <button class="nav-button" data-action="home">Home</button>
+      </nav>
+    </header>
+
+    <main id="app" class="view" aria-live="polite"></main>
+  </div>
+
+  <div id="drawer-backdrop" class="drawer-backdrop" hidden></div>
+  <aside id="drawer" class="drawer" aria-hidden="true" aria-labelledby="drawer-title">
+    <button id="drawer-close" class="drawer-close" aria-label="Close drawer">×</button>
+    <div id="drawer-content"></div>
+  </aside>
+
+  <script type="module" src="js/app.js"></script>
+</body>
+</html>
