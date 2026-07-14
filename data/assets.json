@@ -1,0 +1,8 @@
+[
+  {"name":"Supplier Quality Data Product","domain":"Quality","type":"Data Product","owner":"Quality Data Product Team","keywords":["supplier","quality","scorecard","procurement"],"status":"Reusable"},
+  {"name":"Global Complaints Analytics","domain":"Quality","type":"Dashboard","owner":"Decision Intelligence","keywords":["complaints","quality","trend","reporting"],"status":"Reusable"},
+  {"name":"Manufacturing Performance Model","domain":"Supply Chain","type":"Semantic Model","owner":"Supply Chain Analytics","keywords":["manufacturing","oee","performance","plant"],"status":"Reusable"},
+  {"name":"Inventory Health Data Product","domain":"Supply Chain","type":"Data Product","owner":"Supply Planning Data Team","keywords":["inventory","planning","stock","service"],"status":"Reusable"},
+  {"name":"Procurement Spend Cube","domain":"Procurement","type":"Semantic Model","owner":"Procurement Analytics","keywords":["spend","supplier","category","procurement"],"status":"Reusable"},
+  {"name":"Demand Forecasting Model","domain":"Supply Chain","type":"AI / ML","owner":"Data Science","keywords":["forecast","demand","model","planning"],"status":"Assessment required"}
+]
