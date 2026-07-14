@@ -1,0 +1,27 @@
+{
+  "new-idea": {
+    "title": "New Business Idea",
+    "subtitle": "Validate the opportunity and deliver measurable business value.",
+    "phases": ["understand", "discover", "design", "build", "launch", "measure"]
+  },
+  "prototype": {
+    "title": "Industrialize an Existing Prototype",
+    "subtitle": "Decide whether to scale, rebuild, reuse or retire a business-built solution.",
+    "phases": ["understand", "discover", "design", "build", "launch", "measure"]
+  },
+  "new-data": {
+    "title": "Bring New Data",
+    "subtitle": "Assess, onboard, validate and publish data for trusted consumption.",
+    "phases": ["understand", "discover", "design", "build", "launch", "measure"]
+  },
+  "existing-product": {
+    "title": "Improve an Existing Product",
+    "subtitle": "Assess the change, protect product integrity and release value quickly.",
+    "phases": ["understand", "discover", "design", "build", "launch", "measure"]
+  },
+  "support": {
+    "title": "Operational Support",
+    "subtitle": "Route live production issues through the Service Manager and support process.",
+    "phases": ["understand", "launch", "measure"]
+  }
+}
