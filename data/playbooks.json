@@ -1,0 +1,37 @@
+[
+  {
+    "id": "new-idea",
+    "icon": "💡",
+    "title": "New Business Idea",
+    "description": "A new Data, Analytics or AI capability intended to solve a business problem or create measurable value.",
+    "examples": ["New dashboard", "New Data Product", "Predictive analytics", "AI-enabled capability"]
+  },
+  {
+    "id": "prototype",
+    "icon": "⚙️",
+    "title": "Existing Prototype",
+    "description": "A business-built PoC, automation, spreadsheet or local solution that may need to become scalable and supported.",
+    "examples": ["Power Automate PoC", "Excel workflow", "Python script", "Local Power BI solution"]
+  },
+  {
+    "id": "new-data",
+    "icon": "📥",
+    "title": "Bring New Data",
+    "description": "A new source, ingestion requirement, API, table or data access need that should become consumable.",
+    "examples": ["SAP table", "Vendor API", "File ingestion", "New source system"]
+  },
+  {
+    "id": "existing-product",
+    "icon": "📈",
+    "title": "Improve Existing Product",
+    "description": "A change to an existing supported product, dashboard, data product, model or analytical capability.",
+    "examples": ["New KPI", "Additional field", "Performance improvement", "Product extension"]
+  },
+  {
+    "id": "support",
+    "icon": "🛠️",
+    "title": "Operational Support",
+    "description": "A live production issue that should be handled through the Service Manager and operational support process.",
+    "examples": ["Failed pipeline", "Refresh issue", "Access incident", "Production defect"]
+  }
+]
